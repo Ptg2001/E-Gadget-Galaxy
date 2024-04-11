@@ -1,7 +1,5 @@
 # Online Shopping Cart (E-Commerce Website)
-- Youtube Video for introduction, demo and setup for this Project: https://www.youtube.com/watch?v=RgQG0_orFpM
-<!-- - YouTube video for step by step local setup of similar project: https://www.youtube.com/watch?v=mLFPodZO8Iw&t=8s -->
-<!-- Live site url: https://ellisonelectronics.herokuapp.com -->
+
 This is an E-Commerce Website build for selling of any electronics products online.
 
 ### About
@@ -40,13 +38,13 @@ Note: The payment page is created only for demo purpose and its not fully integr
 - MySql
 
 ### ================ Software And Tools Required ================
-- : Git [https://www.youtube.com/watch?v=gv7VPQ4LZ7g]
-- : Java JDK 8+ [https://www.youtube.com/watch?v=O9PWH9SeTTE]
-- : Eclipse EE (Enterprise Edition) [https://www.youtube.com/watch?v=8aDsEV7txXE]
-- : Apache Maven [https://www.youtube.com/watch?v=jd2zx3dLjuw]
-- : Tomcat v8.0+ [https://youtu.be/mLFPodZO8Iw?t=903]
-- : MySQL Server [https://www.youtube.com/watch?v=Ydh5jYA6Frs]
-- : MySQL Workbench [https://www.youtube.com/watch?v=t79oCeTXHwg]
+- : Git [https://git-scm.com/]
+- : Java JDK 8+ [https://www.oracle.com/in/java/technologies/downloads/]
+- : Eclipse EE (Enterprise Edition) [https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-enterprise-java-and-web-developers]
+- : Apache Maven [https://maven.apache.org/]
+- : Tomcat v8.0+ [https://tomcat.apache.org/]
+- : MySQL Server [https://www.mysql.com/]
+- : MySQL Workbench [https://dev.mysql.com/downloads/workbench/]
 
 ### ================= Dummy Database Initialization =================
 STEP 1: Open MySQL Command Prompt or MySQL Workbench
@@ -64,7 +62,7 @@ Step 2 : Go to [https://myaccount.google.com/security](https://myaccount.google.
 
 Step 3: Go to [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) and enter password if asked
 
-Step 4: In Select an App Section: select Other (custom name) => enter "Ellison Electronics" => Generate
+Step 4: In Select an App Section: select Other (custom name) => enter "E-Gadgets Galaxy" => Generate
 
 Step 5: After that it will generate 16 digits app password which you need to copy and save for future configurations.
 
@@ -74,7 +72,7 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/shopping-cart.git```> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/ptg2001/E-Gadget-Galaxy.git```> Select master Branch > Next > Next > Finish.
 
 Step 3: Go inside ```Java Resources > src > application.properties``` and update the values as below:
 - a) Update value for db.username and db.password according to your installed mysql credentials.
